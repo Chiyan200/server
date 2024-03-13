@@ -12,8 +12,8 @@ const books ="books"
 
 // db
 var MongoClient = require("mongodb").MongoClient;
-// const mongoUrl = "mongodb://localhost:27017"; // local
- const mongoUrl = "mongodb://localhost:27017"; // global 
+const mongoUrl = "mongodb://localhost:27017"; // local
+//  const mongoUrl = "mongodb+srv://chandru00576:Lg7bDJgrtTTtJej8@cluster0.n2gop9y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // global 
 
 var bodyParser = require("body-parser");
 app.use(bodyParser.json());
